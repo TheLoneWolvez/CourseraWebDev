@@ -46,7 +46,7 @@ body{
 
 section {
     clear: both;
-    margin: 10% 1% 10% 1%;
+    margin: 4% 1% 10% 1%;
 }
     .row:after {
         content: ".";
@@ -58,7 +58,8 @@ section {
 
     }
 #OurMenu{
-	margin-bottom: 10px;
+	margin-top: 3%;
+	width: 100%;
 	text-align: center;
 
 }
