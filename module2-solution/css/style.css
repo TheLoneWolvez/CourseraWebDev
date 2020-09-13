@@ -2,12 +2,10 @@
 *{
 	box-sizing: border-box;
 }
-
 body{
 	margin: 0 auto;
 	width: 100%;
 	font-family: Helvetica,Arial,sans-serif;
-
 }
 .content{
   border: 1px solid black;
@@ -18,7 +16,6 @@ body{
   position: relative;
   padding: 10px;
 }
-
 .contentheader{
 	position: absolute;
 	top: -18.7px;
@@ -29,8 +26,6 @@ body{
 	color:white;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
-
-
 }
 .content p{
 	margin-top: 35px;
@@ -51,7 +46,7 @@ body{
 
 section {
     clear: both;
-    margin: 10% 5% 10% 5%;
+    margin: 10% 1% 10% 1%;
 }
     .row:after {
         content: ".";
@@ -72,7 +67,6 @@ section {
 @media (min-width: 992px){
 .col-lg-4{
 	float: left;
-	/*border: 1px solid green; */
 	padding: 15px;
 }
 .col-lg-4 {
@@ -87,7 +81,6 @@ section {
 
 .col-md-6, .col-md-12{
 	float:left;
-/*border: 1px solid green; */
 	padding: 15px;
 }
 .col-md-6{
@@ -99,13 +92,11 @@ section {
   }
 
 }
-
 /* Mobile */
 @media (max-width: 767px){
 .col-sm-12{
 	width: 100%;
 	float:left;
-	/*border: 1px solid green; */
 	padding: 15px;
 }
 .col-sm-12{
