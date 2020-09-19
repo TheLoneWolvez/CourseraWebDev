@@ -50,7 +50,7 @@ body{
 
 /**** HOMEPAGE CONTENT ****/
 h1{
-	margin-top: 70px;
+	margin-top: 10px;
 	margin-bottom: 0px;
 	width:100%;
 	color:#FEF6EB;
@@ -65,25 +65,40 @@ h1{
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
+.visibility{
+		visibility: hidden;
+	}
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+.visibility{
+		visibility: hidden;
+	}
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+.visibility{
+		visibility: hidden;
+	}
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+	
+	.visibility{
+		visibility: visible;
+	}
 
 }
 
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+	.visibility{
+		visibility: visible;
+	}
+
 
 }
